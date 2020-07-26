@@ -26,17 +26,23 @@ body{
 
 #navcontainer .list{
     display: flex;
+    font-size: 20px;
     
 }
 
 #navcontainer .list li{
-    padding: 10px;
+    padding: 20px;
+    padding-right: 25px;
     list-style: none;
 }
 
 #navcontainer .list li a{
     text-decoration: none;
     color: #fff;
+}
+#showcase{
+    max-width: 1250px;
+    margin: auto;
 }
 
 #showcase #showcontainer{
@@ -46,17 +52,14 @@ body{
 }
 
 #showcase #showcontainer #data{
+    font-weight: bolder;
     color: #fff;
-    font-size: 50px;
+    font-size: 59px;
     font-family: 'roboto';
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 960px;
-   padding-left: 50px;
-    
-
-}
+ }
 
 #showcase #showcontainer #data span{
     color: #f1515c ;
@@ -67,7 +70,35 @@ body{
 }
 
 #showcase #showcontainer #data .para2 {
-    color : #c4c4c4;
-    font-size: 20px;
+    color : #9b9898;
+    font-size: 24px;
     padding-top: 40px;
+
 }
+
+#showcase #showcontainer #data .programming{
+
+    height: 300px;
+    opacity: 0.2;
+    position: absolute;
+    left: -180px;
+    top: 60px;
+    z-index: -1;
+}
+
+
+#showcase #showcontainer #link a{
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+    
+    
+}
+
+#showcase #showcontainer #link a:hover{
+    color: #c4c4c4;
+    transition-property: all;
+    transition-duration: 0.5s;
+
+      
+}   
