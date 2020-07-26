@@ -1,5 +1,5 @@
 :root{
-    --primary-color: '#f1515c';
+    --primary-color: #f1515c;
 }
 
 *{
@@ -21,7 +21,7 @@ body{
     display: flex;
     justify-content: space-between;
     /* background: linear-gradient(to right, skyblue , lightgreen); */
-    background: var(--primary-color);
+    background: none;
 }
 
 #navcontainer .list{
@@ -137,12 +137,18 @@ padding-left: 40px;
     padding-bottom: 20px;
 }
 
-#updownlinks{
-    display: flex;
-    justify-content: space-between;
-    
+#updown{
+    padding-top: 400px;
 }
 
+#updown .far{
+    color: #fff;
+}
+
+#updown .far:hover{
+    color: #c4c4c4;
+    size: 30px;
+}
 
 
 
