@@ -1,5 +1,5 @@
 :root{
-    --primary-color: "#fff";
+    --primary-color: '#f1515c';
 }
 
 *{
@@ -102,3 +102,48 @@ body{
 
       
 }   
+
+#section {
+    max-width: 1100px;
+    margin: auto;
+    color: #fff;
+}
+
+ #section #projects{
+    z-index: 1;
+    position: absolute;
+    top: 800px;
+} 
+
+#section #projects a{
+    text-decoration: none;
+    color: #f1515c ;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#section img{
+padding-left: 40px;
+}
+
+
+#section #onclickimages{
+  display: grid;
+  grid-template-columns: 4fr 0.5fr;
+}
+
+#projects h1{
+    font-size: 44px;
+    padding-bottom: 20px;
+}
+
+#updownlinks{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
